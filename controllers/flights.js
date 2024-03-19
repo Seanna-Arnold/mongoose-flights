@@ -3,6 +3,7 @@ const Ticket = require('../models/ticket')
 
 module.exports = {
     new: newFlight,
+    new: addTicket,
     create,
     index,
     show
